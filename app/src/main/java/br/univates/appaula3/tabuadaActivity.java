@@ -1,6 +1,5 @@
 package br.univates.appaula3;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
@@ -11,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class LoginActivity extends AppCompatActivity {
+public class tabuadaActivity extends AppCompatActivity {
 
   TextView lblTabuada;
   EditText txtTabuada;
@@ -24,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         setTitle("Título");
-        context = LoginActivity.this;
+        context = tabuadaActivity.this;
         lblTabuada=findViewById(R.id.lblTabuada_login);
         txtTabuada=findViewById(R.id.txtTabuada_login);
         btnCalcular=findViewById(R.id.btnCalcular_login);
