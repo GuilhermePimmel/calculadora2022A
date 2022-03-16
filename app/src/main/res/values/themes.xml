@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.AppAula3" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.AppAula3" parent="Theme.AppCompat.Light.DarkActionBar">>
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,6 +12,11 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.lblsecundaria" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">20px</item>
+        <item name="android:background">@color/purple_200</item>
     </style>
 
     <style name="Theme.AppAula3.NoActionBar">

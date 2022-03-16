@@ -5,22 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".tabuadaActivity">
+    tools:context=".loginActivity"
+
+    >
+
+
+    <TextView
+        android:id="@+id/lblUser_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome de usuário"
+
+        />
 
     <EditText
-        android:id="@+id/txtTabuada_login"
-        android:layout_width="70dp"
+        android:id="@+id/txtUser_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+    android:id="@+id/lblPassword_login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Senha"
+
+
+        />
+
+    <EditText
+        android:id="@+id/txtPassword_login"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/btnCalcular_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CALCULAR"/>
-
-    <TextView
-        android:id="@+id/lblTabuada_login"
+        android:id="@+id/btnLogar_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TABUADA" />
+        android:text="Login"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        />
+
 </LinearLayout>
