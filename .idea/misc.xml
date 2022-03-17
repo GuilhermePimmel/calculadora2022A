@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/guilherme.pimmel/AndroidStudioProjects/AppAula3/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/guilherme.pimmel/AndroidStudioProjects/AppAula3/app/src/main/res/drawable/button_model1.xml" value="0.266" />
+        <entry key="..\:/Users/guilherme.pimmel/AndroidStudioProjects/AppAula3/app/src/main/res/drawable/gradient_background.xml" value="0.187" />
+        <entry key="..\:/Users/guilherme.pimmel/AndroidStudioProjects/AppAula3/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/guilherme.pimmel/AndroidStudioProjects/AppAula3/app/src/main/res/layout/activity_login2.xml" value="0.33" />
         <entry key="..\:/Users/guilherme.pimmel/AndroidStudioProjects/AppAula3/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/guilherme.pimmel/AndroidStudioProjects/AppAula3/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/guilherme.pimmel/AndroidStudioProjects/AppAula3/app/src/main/res/layout/activity_tabuada.xml" value="0.25" />
+        <entry key="..\:/Users/guilherme.pimmel/AndroidStudioProjects/AppAula3/app/src/main/res/layout/activity_telaprincipal.xml" value="0.21296296296296297" />
       </map>
     </option>
   </component>

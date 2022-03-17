@@ -14,11 +14,16 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.lblsecundaria" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:textSize">20px</item>
+    <style name="lblsecundaria" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">50px</item>
         <item name="android:background">@color/purple_200</item>
+        <item name="fontFamily">@font/opensans_variablefont</item>
     </style>
-
+    
+    <style name="btnprincipal" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">80px</item>
+        <item name="android:background">@drawable/gradient_background</item>
+    </style>
     <style name="Theme.AppAula3.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

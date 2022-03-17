@@ -7,20 +7,38 @@
     android:orientation="vertical"
     tools:context=".tabuadaActivity">
 
-    <EditText
-        android:id="@+id/txtTabuada_login"
-        android:layout_width="70dp"
-        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnCalcular_login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CALCULAR"/>
+            <EditText
+                android:id="@+id/txtTabuada_main"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <Button
+                android:id="@+id/btnCalcular_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="CALCULAR"/>
+
+
 
     <TextView
-        android:id="@+id/lblTabuada_login"
+        android:id="@+id/lblTabuada_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TABUADA" />
-</LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+

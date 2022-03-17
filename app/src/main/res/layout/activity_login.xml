@@ -6,16 +6,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".loginActivity"
-
+    android:background="@drawable/gradient_background"
     >
 
 
     <TextView
         android:id="@+id/lblUser_login"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nome de usuário"
-
+        style="@style/lblsecundaria"
         />
 
     <EditText
@@ -25,25 +25,27 @@
 
     <TextView
     android:id="@+id/lblPassword_login"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Senha"
-
-
+    style="@style/lblsecundaria"
         />
 
     <EditText
         android:id="@+id/txtPassword_login"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        />
 
     <Button
         android:id="@+id/btnLogar_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:background="@color/purple_500"
+        android:background="@drawable/button_model1"
         android:textColor="@color/white"
+
         />
 
 </LinearLayout>
