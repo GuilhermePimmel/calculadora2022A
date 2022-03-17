@@ -27,6 +27,8 @@ public class loginActivity extends AppCompatActivity {
         txtPassword = findViewById(R.id.txtPassword_login);
         btnLogar = findViewById(R.id.btnLogar_login);
 
+        txtUser.requestFocus();
+
         btnLogar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
