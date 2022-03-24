@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".tabuadaActivity">
+    tools:context=".telaprincipalActivity"
+    android:id="@+id/snack"
+    android:background="@color/white"
+    >
 
     <ScrollView
         android:layout_width="match_parent"
@@ -16,85 +19,42 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+
+
             <Button
+                android:id="@+id/btntela3_telaprincipal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tela 1"
-                android:background="@drawable/button_model1"
-                android:textColor="#1C47EA"
+                android:text="Tela 3"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
+                android:textSize="70px"
+                android:layout_marginBottom="80dp"
+                android:layout_marginTop="80dp"
+                />
+
+            <Button
+                android:id="@+id/btntoast_telaprincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toast"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
                 android:textSize="70px"
                 android:layout_marginBottom="80dp"
                 />
 
             <Button
+                android:id="@+id/btnsnack_telaprincipal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tela 1"
-                android:background="@drawable/button_model1"
-                android:textColor="#1C47EA"
+                android:text="Snackbar"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
                 android:textSize="70px"
                 android:layout_marginBottom="80dp"
                 />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tela 1"
-                android:background="@drawable/button_model1"
-                android:textColor="#1C47EA"
-                android:textSize="70px"
-                android:layout_marginBottom="80dp"
-                />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tela 1"
-                android:background="@drawable/button_model1"
-                android:textColor="#1C47EA"
-                android:textSize="70px"
-                android:layout_marginBottom="80dp"
-                />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tela 1"
-                android:background="@drawable/button_model1"
-                android:textColor="#1C47EA"
-                android:textSize="70px"
-                android:layout_marginBottom="80dp"
-                />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tela 1"
-                android:background="@drawable/button_model1"
-                android:textColor="#1C47EA"
-                android:textSize="70px"
-                android:layout_marginBottom="80dp"
-                />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tela 1"
-                android:background="@drawable/button_model1"
-                android:textColor="#1C47EA"
-                android:textSize="70px"
-                android:layout_marginBottom="80dp"
-                />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Tela 1"
-                android:background="@drawable/button_model1"
-                android:textColor="#1C47EA"
-                android:textSize="70px"
-                android:layout_marginBottom="80dp"
-                />
 
 
 

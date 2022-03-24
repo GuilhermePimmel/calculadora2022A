@@ -35,7 +35,7 @@ public class loginActivity extends AppCompatActivity {
                 if(txtUser.getText().toString().equals(User) &&
                 txtPassword.getText().toString().equals(Pass)){
 
-                    Intent intent = new Intent(context, tabuadaActivity.class);
+                    Intent intent = new Intent(context, telaprincipalActivity.class);
                     startActivity(intent);
                     finish();
 

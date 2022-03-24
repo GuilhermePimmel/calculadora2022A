@@ -24,9 +24,9 @@ public class tabuadaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tabuada);
         setTitle("Título");
         context = tabuadaActivity.this;
-        lblTabuada=findViewById(R.id.lblTabuada_login);
-        txtTabuada=findViewById(R.id.txtTabuada_login);
-        btnCalcular=findViewById(R.id.btnCalcular_login);
+        lblTabuada=findViewById(R.id.lblTabuada_main);
+        txtTabuada=findViewById(R.id.txtTabuada_main);
+        btnCalcular=findViewById(R.id.btnCalcular_main);
 
         btnCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
