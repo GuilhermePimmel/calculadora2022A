@@ -55,7 +55,38 @@
                 android:layout_marginBottom="80dp"
                 />
 
+            <Button
+                android:id="@+id/btnlista_telaprincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linguagens de programação"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
+                android:textSize="70px"
+                android:layout_marginBottom="80dp"
+                />
 
+            <Button
+                android:id="@+id/btnpreference_telaprincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salvar Preference"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
+                android:textSize="70px"
+                android:layout_marginBottom="80dp"
+                />
+
+            <Button
+                android:id="@+id/btnexibir_telaprincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exibir Preference"
+                android:background="@color/purple_200"
+                android:textColor="@color/white"
+                android:textSize="70px"
+                android:layout_marginBottom="80dp"
+                />
 
 
 
